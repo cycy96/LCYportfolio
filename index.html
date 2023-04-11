@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+<style>
+* {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.body 
+{font-family: Arial;}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 750px;
+  background-color: #a2967f;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+
+/* Create two columns that floats next to each other */
+.column2 {
+  padding: 0px;
+  float: left;
+  width: 70%;
+  height: 750px;
+  background-color: #c8bb9e;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the tab */
+.tab {
+  padding: 0px;
+  overflow: hidden;
+  background: #dedbd1
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #eae6df;
+  color:#b8926a;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #eae6df;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.buttoncenter{
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.button{
+  background-color: #f5f4ef;
+  border: none;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  width: 200px;
+}
+
+.button a:link, a:visited{
+color: black;
+}
+
+.button a:hover{
+color: #c19e77;
+}
+
+.buttonforemail{
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column1">
+    <img src="photo.jpg" width="200" height="200">
+    <h2 style="text-align: center;">LEONG CHEE YAN</h2>
+    <div class="buttoncenter">
+    <div class="button"><a href="https://www.behance.net/leongcheeyan/projects" style="text-decoration: none" target="_blank" ><i class='fa fa-file-picture-o'></i>My work</a></div>
+    <div class="button"><a href="https://drive.google.com/drive/folders/11wV4HTg7zcWICdMPLNHLvY_EWGBg9duw?usp=sharing" style="text-decoration: none" target="_blank" ><i class="fa fa-download"></i>My resume</a></div>
+    <div class="button"><a href="https://www.linkedin.com/in/leong-chee-yan-0530/" style="text-decoration: none" target="_blank" ><i class='fa fa-linkedin'></i>LinkedIn</a></div>
+    </div>
+    </div>
+  
+  <div class="column2">
+<div class="tab">
+  <button class="tablinks" onclick="openContent(event, 'About me')">About me</button>
+  <button class="tablinks" onclick="openContent(event, 'Edu')">Education</button>
+  <button class="tablinks" onclick="openContent(event, 'Work')">Work experience</button>
+    <button class="tablinks" onclick="openContent(event, 'Skillset')">Skillset</button>
+  <button class="tablinks" onclick="openContent(event, 'Getintouch')">Get in touch</button>
+</div>
+
+<div id="About me" class="tabcontent">
+  
+  <h1>Hi! I'm Chee Yan.</h1>
+  <p style="font-size: 20px;">Highly motivated, enthusiastic individual with excellent problem-solving and 
+    communication skills and the ability to grasp new concepts and ideas quickly.</p>
+</div>
+
+<div id="Edu" class="tabcontent">
+  
+  <table style="width:100%">
+    <tr style= "text-align: center;">
+      <td style="font-size: 25px;"><i class='fa fa-university'></i><br><br>Master of Bioinformatics </td>
+      <td style="font-size: 25px;"><i class='fa fa-university'></i><br><br>BSc (Hons) Microbiology</td>
+    </tr>
+    <tr style= "text-align: center;">
+      <td style="font-size: 20px;">Universiti of Malaya (UM)</td>
+      <td style="font-size: 20px;">National University of Malaysia (UKM) </td>
+    </tr>
+    <tr style= "text-align: center;">
+      <td style="font-size: 16px;">Cgpa: <b>3.97</b>/ 4.0</td>
+      <td style="font-size: 16px;"><br>Cgpa: 3.49/ 4.0</br><p><b>Honor:</b> Dean’s List awards 2016/2017, 2017/2018</p></td>
+    </tr>
+  </table>
+</div>
+
+<div id="Work" class="tabcontent">
+ <p><i class="fa fa-user" aria-hidden="true"></i><b>Research Assistant</b> 
+ <br>National University of Malaysia (UKM)<br>
+ Feb 2016–Aug 2016</p>
+
+ <p><i class="fa fa-user" aria-hidden="true"></i><b>Medical Laboratory Scientist (MLS) Intern</b>
+<br>Pantai Premier Pathology Sdn. Bhd., Perak<br>
+Jun 2019 - Aug 2019
+ </p>
+
+ <p><i class="fa fa-user" aria-hidden="true"></i><b>Academic Tutor</b>
+  <br>IQ Plus Education Center, Perak<br>
+  Feb 2016–Aug 2016</p>
+
+</div>
+
+<div id="Skillset" class="tabcontent">
+  <p><i class="fa fa-wrench" aria-hidden="true"></i><b>Programming</b><br>
+    HTML, CSS, JavaScript, Python, R, Java</p>
+
+    <p><i class="fa fa-wrench" aria-hidden="true"></i><b>Computer skills</b>
+    <br>Microsoft Office (Word, Excel, PowerPoint, Outlook)</br></p>
+
+    <p><i class="fa fa-wrench" aria-hidden="true"></i><b>IDE</b>
+    <br>PyCharm, IntelliJ IDEA, Visual Studio code</br></p>
+
+    <p><i class="fa fa-wrench" aria-hidden="true"></i><b>Operating system</b>
+    <br>MS Windows, Linux (Ubuntu)</br></p>
+
+    <p><i class="fa fa-wrench" aria-hidden="true"></i><b>Software</b>
+    <br>Notepad++, Figma, R studio, Putty, Tableau, ORANGE</br></p>
+    <br>
+  
+</div>
+
+<div id="Getintouch" class="tabcontent">
+  <h1>My inbox is always open! </h1>
+    <p style="font-size: 19px;">Wheather you have question or project or just want to say hi, I will try my best to get back to you!</p>
+    <div class="buttonforemail">
+      <div class="button"><a href="mailto: lcheeyan0530@gmail.com" style="text-decoration: none" target="_blank" ><i class="fa fa-envelope"></i>Email me</a></div>
+</div>
+
+<script>
+function openContent(evt, content) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(content).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+
+  </div>
+  
+
+</div>
+
+</body>
+</html>
