@@ -1,4 +1,4 @@
-# My personal portfolio website 
+# My personal portfolio website ⚡️
 
 Here are some of the technologies I used:
 HTML, CSS and JavaScript
