@@ -11,7 +11,6 @@
 body{
   margin-top: 20px;
   margin-bottom: 20px;
-
   width: 1200px;
 }
 
@@ -139,7 +138,7 @@ color: #c19e77;
   
   <div class="column2">
 <div class="tab">
-  <button class="tablinks" onclick="openContent(event, 'About me')">About me</button>
+  <button class="tablinks" onclick="openContent(event, 'About me')" id="defaultOpen">About me</button>
   <button class="tablinks" onclick="openContent(event, 'Edu')">Education</button>
   <button class="tablinks" onclick="openContent(event, 'Work')">Work experience</button>
     <button class="tablinks" onclick="openContent(event, 'Skillset')">Skillset</button>
@@ -227,13 +226,9 @@ function openContent(evt, content) {
   document.getElementById(content).style.display = "block";
   evt.currentTarget.className += " active";
 }
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
-   
-
-  </div>
-  
-
-</div>
 
 </body>
 </html>
