@@ -14,3 +14,5 @@ HTML, CSS and JavaScript
 ✔️ My work
 ✔️ Resume
 ✔️ LinkedIn
+
+To view a live example, https://cycy96.github.io/LCYportfolio/
