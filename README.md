@@ -3,7 +3,7 @@
 Here are some of the technologies I used:
 HTML, CSS and JavaScript
 
-![website mock up (3)](https://user-images.githubusercontent.com/127811480/234177895-986bbee6-32e7-4bb0-a6a9-ca9f65026eda.png)
+![website mock up (4)](https://user-images.githubusercontent.com/127811480/234178008-5c6674cf-d153-4b63-9a79-5e02c276fc93.png)
 
 
 # Sections 📚
