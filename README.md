@@ -2,12 +2,10 @@
 
 This is second iteration of my personal website.
 
-
-Here are some of the technologies I used:
-HTML, CSS and JavaScript
-
 ![website mock up (5)](https://user-images.githubusercontent.com/127811480/234178151-9dcfb788-dfeb-487d-b956-c7c2a0b88be6.png)
 
+# Technologies used
+🔶 HTML <br> 🔶 CSS <br> 🔶 JavaScript <br> 🔶 Bootstrap 5
 
 # Sections 📚
 ✔️ About me
