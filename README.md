@@ -1,5 +1,8 @@
 # My personal portfolio website ⚡️
 
+This is second iteration of my personal website.
+
+
 Here are some of the technologies I used:
 HTML, CSS and JavaScript
 
