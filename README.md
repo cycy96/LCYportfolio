@@ -5,7 +5,7 @@ This is second iteration of my personal website.
 ![website mock up (5)](https://user-images.githubusercontent.com/127811480/234178151-9dcfb788-dfeb-487d-b956-c7c2a0b88be6.png)
 
 # Technologies used
-🔶 HTML <br> 🔶 CSS <br> 🔶 JavaScript <br> 🔶 Bootstrap 5
+🔶 HTML <br> 🔶 CSS <br> 🔶 JavaScript 
 
 # Sections 📚
 ✔️ About me
