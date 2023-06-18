@@ -17,4 +17,4 @@ This is second iteration of my personal website.
 ✔️ Resume
 ✔️ LinkedIn
 
-To view a live example, follow this link: https://cycy96.github.io/LCYportfolio/
+To view a live example, follow this link: [https://cycy96.github.io/LCYportfolio/](https://cycy96.github.io/Personal-Website-V2/)
